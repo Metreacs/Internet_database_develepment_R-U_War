@@ -43,10 +43,10 @@ AppAsset::register($this);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site']],
         ['label' => 'About', 'url' => ['/site/about']],
-        ['label'=>'Blog','url'=>['/blog/blog']],
+        ['label'=>'Publish','url'=>['/blog/blog']],
         ['label'=>'Video','url'=>['/video/index']],
         ['label'=>'Contact','url'=>['/site/contact']],
-        ['label' => 'News', 'url' => ['/news/index']],
+        ['label' => 'Blogs', 'url' => ['/blogs/index']],
         ['label' => 'Research', 'url' => ['/site/research']]
     ];
     if (Yii::$app->user->isGuest) {
