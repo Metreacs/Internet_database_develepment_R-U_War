@@ -38,7 +38,7 @@ $this->title = 'Contact';
 
 <nav id="w0" class="shadow-sm navbar-expand-lg navbar-light bg-light navbar">
   <div class="container">
-    <a class="navbar-brand" href="../../web/site/index">COVID-19</a>
+    <a class="navbar-brand" href="../../web/site/index">R-U War</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w0-collapse" aria-controls="w0-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div id="w0-collapse" class="collapse navbar-collapse">
       <ul id="w1" class="navbar-nav ml-auto nav">
