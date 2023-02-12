@@ -3,7 +3,7 @@ use common\models\Visit;
 use yii\helpers\Url;
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,谢志颖 2113302
+ * coding by 吴传杰 2013778,谢志颖 2113302
  * This is the home page of frontend web
  */
 ?>
