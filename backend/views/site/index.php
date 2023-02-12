@@ -22,7 +22,6 @@ $this->title = '俄乌战争资料站后台';
     <p>昨日访问量: <span><?php echo Yii::$app->userCounter->getYesterday(); ?></span></p>
     <p>网站总访问量: <span><?php echo Yii::$app->userCounter->getTotal(); ?></span></p>
     <p>网站当日最大访问量: <span><?php echo Yii::$app->userCounter->getMaximal(); ?></span></p>
-    <p>网站最大访问量日期: <span><?php echo date('Y.m.d', Yii::$app->userCounter->getMaximalTime()); ?></span></p>
 </div>
 
 <body>

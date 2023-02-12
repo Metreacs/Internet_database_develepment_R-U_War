@@ -12,15 +12,15 @@ use yii\widgets\Pjax;
 /* @var $searchModel common\models\CovNewsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Cov News';
+$this->title = 'R-U Blogs';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="cov-news-index">
+<div class="r-u-blogs-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Cov News', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create R-U Blogs', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php Pjax::begin(); ?>
