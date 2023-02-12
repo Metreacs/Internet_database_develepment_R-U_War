@@ -23,7 +23,7 @@ echo \yii\bootstrap4\Nav::widget([
             'url' => ['/video/index']
         ],
         [
-            'label'=>'Blogs',
+            'label'=>'Article',
             'url'=>['/article/index']
         ],
         [
@@ -31,12 +31,8 @@ echo \yii\bootstrap4\Nav::widget([
             'url'=>['/comment/index']
         ],
         [
-            'label'=>'News',
+            'label'=>'Blogs',
             'url'=>['/cov-news/index']
-        ],
-        [
-            'label'=>'Research',
-            'url'=>['/cov-research/index']
         ],
         [
             'label'=>'Contact Info',
