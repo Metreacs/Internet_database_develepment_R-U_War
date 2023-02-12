@@ -3,7 +3,7 @@ use common\models\Visit;
 use yii\helpers\Url;
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,20200505 & 徐云凯 1713667
+ * coding by huangjingzhi 1810729,谢志颖 2113302
  * This is the home page of frontend web
  */
 ?>
@@ -21,7 +21,7 @@ $this->registerJsFile("@web/js/plague-map.js");
 
 $url = Yii::getAlias("@web") . '/img/';
 
-$this->title = '疫情资料站';
+$this->title = '俄乌战争论坛';
 ?>
 <div class="site-index">
 

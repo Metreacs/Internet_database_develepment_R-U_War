@@ -43,28 +43,9 @@
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-
-.foreground {/*速度最快的草坪和猫猫*/
-  position: relative;
-  top:-245px;
-  left:0;
-  animation: parallax_fg linear 10s infinite both;
-  background:  url(http://stash.rachelnabors.com/24ways2012/foreground_grass.png) 0 100% repeat-x;
-  z-index: 3;
-}
-
 @keyframes parallax_fg {  
   0% { background-position: -3584px 100%;} 
   100% {background-position: 0 100%; } 
-}
-
-.midground {
-  position: relative;
-  top:-845px;
-  left: 0;
-  animation: parallax_mg linear 20s infinite;
-  background:  url(http://stash.rachelnabors.com/24ways2012/midground_grass.png) 0 100% repeat-x;
-  z-index: 2;
 }
 
 @keyframes parallax_mg {  
@@ -76,12 +57,7 @@
   position: relative;
   top:-1460px;
   left: 0;
-  background-image:
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain5.png),
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain4.png),
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain3.png),
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain2.png),
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain1.png);
+  background-image: image("image\6.jpg");
   background-repeat: repeat-x;
   background-position: 0 100%;
   z-index: 1;
@@ -94,5 +70,4 @@
 
 body {
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
-    #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }

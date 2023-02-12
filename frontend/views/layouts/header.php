@@ -2,12 +2,9 @@
 
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,20200504
- * 导航
+ * coding by 谢志颖 2113302
  */
 
-/* @var $this \yii\web\View */
-/* @var $content string */
 
 use yii\helpers\Html;
 use yii\bootstrap4\Nav;
