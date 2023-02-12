@@ -14,22 +14,22 @@ $this->registerCssFile('@web/css/home.css');
 $this->registerJsFile('@web/js/home.js');
 
 $this->registerCssFile('@web/css/leaflet.css');
-$this->registerCssFile('@web/css/plague-map.css');
+//$this->registerCssFile('@web/css/plague-map.css');
 $this->registerJsFile("@web/js/jquery-3.4.1.min.js");
 $this->registerJsFile("@web/js/leaflet.js");
-$this->registerJsFile("@web/js/plague-map.js");
+//$this->registerJsFile("@web/js/plague-map.js");
 
 $url = Yii::getAlias("@web") . '/img/';
+$abouturl=Yii::$app->homeUrl . 'site/about';
 
-$this->title = '疫情资料站';
+$this->title = '俄乌战争资料站';
 ?>
 <div class="site-index">
-
-    <!-- 下面第3行是疫情地图的占位符！！！！！！！注意别删了！！！！ -->
-    <!-- 下面第2行是疫情地图的占位符！！！！！！！注意别删了！！！！ -->
-    <!-- 下面这行是疫情地图的占位符！！！！！！！注意别删了！！！！ -->
-    <div id="plague-map"></div>
-
+    <div id="homepage"  style="text-align:center;padding:20px 20px 0px">
+    <a href="<?= $abouturl ?>">
+        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=550px />
+    </a>
+    </div>
     <section class="slider"></section>
     <div class="container">
         <div class="card-carousel">

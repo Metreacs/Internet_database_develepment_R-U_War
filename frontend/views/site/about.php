@@ -84,7 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
 	<meta name="keywords" content="keywords" />
 	<meta name="author" content="Arcsin, www.arcsin.se" />
 	<link rel="stylesheet" type="text/css" href="default.css" />
-	<title>COVID</title>
+	<title>R-U</title>
 </head>
 
 <body>
