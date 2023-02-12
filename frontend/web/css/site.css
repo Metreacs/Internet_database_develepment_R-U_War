@@ -136,6 +136,12 @@ main{
     margin-bottom: 200px;
 }
 
+.content-wrapper::after{
+    content: "";
+    z-index: 100;
+    background: url(../../../image/6.jpg) no-repeat;
+}
+
 aside{
     min-width: 200px;
 }
@@ -167,18 +173,3 @@ aside .nav-pills .nav-link.active{
     color:#454545;
 }
 
-/* .btn-file{
-    position: relative;
-}
-
-.btn-file input{
-    position:absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-} */
-/**end*/
