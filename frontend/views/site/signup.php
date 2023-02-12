@@ -2,15 +2,10 @@
 
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by LiYanxin 1813265,20200504
+ * coding by 谢志颖 2113302
  */
 
 
-
-
-/* @var $this yii\web\View */
-/* @var $form yii\bootstrap4\ActiveForm */
-/* @var $model \frontend\models\SignupForm */
 
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;

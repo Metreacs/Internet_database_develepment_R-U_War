@@ -45,9 +45,6 @@ class RU_BlogSearch extends RU_Blog
     public function search($params)
     {
         $query = RU_Blog::find();
-
-        // add conditions that should always apply here
-
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
@@ -55,12 +52,9 @@ class RU_BlogSearch extends RU_Blog
         $this->load($params);
 
         if (!$this->validate()) {
-            // uncomment the following line if you do not want to return any records when validation fails
-            // $query->where('0=1');
             return $dataProvider;
         }
 
-        // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
         ]);

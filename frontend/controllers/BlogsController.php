@@ -1,6 +1,10 @@
 <?php
 
 namespace frontend\controllers;
+/**
+ * Team:布利啾啾迪布利多,NKU
+ * coding by 谢志颖 2113302
+ */
 
 use common\models\RU_Blog;
 use Yii;
