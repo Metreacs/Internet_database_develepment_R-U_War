@@ -2,8 +2,8 @@
 
 namespace frontend\controllers;
 
+use common\models\RU_Blog;
 use Yii;
-
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
@@ -11,11 +11,10 @@ use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 use yii\data\ActiveDataProvider;
 use yii\data\Pagination;
-use common\models\CovNews;
 use common\models\Video;
 
 
-class NewsController extends Controller
+class BlogsController extends Controller
 {
     public function behaviors()
     {
@@ -65,17 +64,17 @@ class NewsController extends Controller
     public function actionIndex()
     {
         $this->layout = 'blog';
-        $data = CovNews::getAll(16);
+        $data = RU_Blog::getAll(16);
 
-        $data1 = $data['news'][0];
+        $data1 = $data['blogs'][0];
         for ($i = 1, $j = 0; $i < 5;) {
-            $data2[$j++] = $data['news'][$i++];
+            $data2[$j++] = $data['blogs'][$i++];
         }
         for ($i = 5, $j = 0; $i < 10;) {
-            $data3[$j++] = $data['news'][$i++];
+            $data3[$j++] = $data['blogs'][$i++];
         }
         for ($i = 10, $j = 0; $i < 16;) {
-            $data4[$j++] = $data['news'][$i++];
+            $data4[$j++] = $data['blogs'][$i++];
         }
         $videos = Video::getAll(5);
         return $this->render("index", [

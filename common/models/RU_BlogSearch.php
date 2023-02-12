@@ -1,8 +1,7 @@
 <?php
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by 孙家宜 1810756,202005010
- * 由gii生成
+ * Team:你说的都队
+ * coding by 谢志颖 2113302
  */
 
 namespace common\models;
@@ -12,9 +11,9 @@ use yii\data\ActiveDataProvider;
 use common\models\CovNews;
 
 /**
- * CovNewsSearch represents the model behind the search form of `common\models\CovNews`.
+ * RU_BlogSearch represents the model behind the search form of `common\models\RU_Blog`.
  */
-class CovNewsSearch extends CovNews
+class RU_BlogSearch extends RU_Blog
 {
     /**
      * {@inheritdoc}
@@ -45,7 +44,7 @@ class CovNewsSearch extends CovNews
      */
     public function search($params)
     {
-        $query = CovNews::find();
+        $query = RU_Blog::find();
 
         // add conditions that should always apply here
 

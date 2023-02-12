@@ -1,21 +1,20 @@
 <?php
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by 孙家宜 1810756,202005010
- * 由gii生成
+ * coding by 谢志颖 2113302
  */
 
 namespace frontend\controllers;
 
+use common\models\RU_Blog;
 use Yii;
-use common\models\CovNews;
-use common\models\CovNewsSearch;
+use common\models\RU_BlogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * CovNewsController implements the CRUD actions for CovNews model.
+ * RU_BlogController implements the CRUD actions for RU_Blog model.
  */
 class CovNewsController extends Controller
 {
@@ -40,7 +39,7 @@ class CovNewsController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new CovNewsSearch();
+        $searchModel = new RU_BlogSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -63,13 +62,13 @@ class CovNewsController extends Controller
     }
 
     /**
-     * Creates a new CovNews model.
+     * Creates a new RU_Blog model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new CovNews();
+        $model = new RU_Blog();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -81,7 +80,7 @@ class CovNewsController extends Controller
     }
 
     /**
-     * Updates an existing CovNews model.
+     * Updates an existing RU_Blog model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -101,7 +100,7 @@ class CovNewsController extends Controller
     }
 
     /**
-     * Deletes an existing CovNews model.
+     * Deletes an existing RU_Blog model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -115,15 +114,15 @@ class CovNewsController extends Controller
     }
 
     /**
-     * Finds the CovNews model based on its primary key value.
+     * Finds the RU_Blog model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return CovNews the loaded model
+     * @return RU_Blog the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = CovNews::findOne($id)) !== null) {
+        if (($model = RU_Blog::findOne($id)) !== null) {
             return $model;
         }
 

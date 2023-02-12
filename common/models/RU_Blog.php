@@ -1,8 +1,7 @@
 <?php
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by 孙家宜 1810756,202005010
- * 由gii生成
+ * coding by 谢志颖 2113302
  */
 
 namespace common\models;
@@ -11,7 +10,7 @@ use yii\data\Pagination;
 use Yii;
 
 /**
- * This is the model class for table "{{%cov_news}}".
+ * This is the model class for table "{{%RU_Blog}}".
  *
  * @property int $id
  * @property string|null $pubDate
@@ -21,14 +20,14 @@ use Yii;
  * @property string|null $sourceUrl
  * @property string|null $image
  */
-class CovNews extends \yii\db\ActiveRecord
+class RU_Blog extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return '{{%cov_news}}';
+        return '{{%RU_Blog}}';
     }
 
     /**
@@ -61,17 +60,17 @@ class CovNews extends \yii\db\ActiveRecord
 
     /**
      * {@inheritdoc}
-     * @return CovNewsQuery the active query used by this AR class.
+     * @return RU_BlogQuery the active query used by this AR class.
      */
     public static function find()
     {
-        return new CovNewsQuery(get_called_class());
+        return new RU_BlogQuery(get_called_class());
     }
     
     public static function getAll($pageSize = 5)
     {
         
-        $query = CovNews::find()->latest();
+        $query = RU_Blog::find()->latest();
 
     
         $count = $query->count();
@@ -80,11 +79,11 @@ class CovNews extends \yii\db\ActiveRecord
         $pagination = new Pagination(['totalCount' => $count, 'pageSize'=>$pageSize]);
 
   
-        $news = $query->offset($pagination->offset)
+        $blogs = $query->offset($pagination->offset)
             ->limit($pagination->limit)
             ->all();
         
-        $data['news'] = $news;
+        $data['blogs'] = $blogs;
         $data['pagination'] = $pagination;
         
         return $data;

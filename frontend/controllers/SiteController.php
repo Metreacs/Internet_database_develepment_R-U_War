@@ -1,25 +1,26 @@
 <?php
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,袁嘉蔚 1810546，20200509
- * actioncontact相关，袁嘉蔚
+ * coding by huangjingzhi 1810729,谢志颖 2113302
  */
 namespace frontend\controllers;
 
+use common\models\CovResearch;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
+use yii\data\Pagination;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-use common\models\CovNews;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use common\models\ContactForm;
+use common\models\RU_Blog;
 use frontend\models\NewsForm;
 use frontend\models\ResearchForm;
 
@@ -82,9 +83,9 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $data=CovNews::getAll(6);
+        $data=RU_Blog::getAll(6);
         return $this->render('index',[
-            'news'=>$data['news'],
+            'news'=>$data['blogs'],
         ]);
     }
 

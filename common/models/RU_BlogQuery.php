@@ -1,27 +1,21 @@
 <?php
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by 孙家宜 1810756,202005010
- * 由gii生成
+ * Team:你说的都队
+ * coding by 谢志颖 2113302
  */
 
 namespace common\models;
 
 /**
- * This is the ActiveQuery class for [[CovNews]].
+ * This is the ActiveQuery class for [[RU_Blog]].
  *
- * @see CovNews
+ * @see RU_Blog
  */
-class CovNewsQuery extends \yii\db\ActiveQuery
+class RU_BlogQuery extends \yii\db\ActiveQuery
 {
-    /*public function active()
-    {
-        return $this->andWhere('[[status]]=1');
-    }*/
-
     /**
      * {@inheritdoc}
-     * @return CovNews[]|array
+     * @return RU_Blog[]|array
      */
     public function all($db = null)
     {
@@ -30,7 +24,7 @@ class CovNewsQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return CovNews|array|null
+     * @return RU_Blog|array|null
      */
     public function one($db = null)
     {

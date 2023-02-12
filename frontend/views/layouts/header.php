@@ -2,12 +2,9 @@
 
 /**
  * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,20200504
- * 导航
+ * coding by 谢志颖 2113302
  */
 
-/* @var $this \yii\web\View */
-/* @var $content string */
 
 use yii\helpers\Html;
 use yii\bootstrap4\Nav;
@@ -43,10 +40,10 @@ AppAsset::register($this);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site']],
         ['label' => 'About', 'url' => ['/site/about']],
-        ['label'=>'Blog','url'=>['/blog/blog']],
+        ['label'=>'Publish','url'=>['/blog/blog']],
         ['label'=>'Video','url'=>['/video/index']],
         ['label'=>'Contact','url'=>['/site/contact']],
-        ['label' => 'News', 'url' => ['/news/index']],
+        ['label' => 'Blogs', 'url' => ['/blogs/index']],
         ['label' => 'Research', 'url' => ['/site/research']]
     ];
     if (Yii::$app->user->isGuest) {

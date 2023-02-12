@@ -17,6 +17,8 @@ nbproject
 .project
 .settings
 
+/data
+
 # windows thumbnail cache
 Thumbs.db
 
@@ -28,11 +30,6 @@ composer.phar
 
 # Mac DS_Store Files
 .DS_Store
-
-# phpunit itself is not needed
-# phpunit.phar
-# local phpunit config
-# /phpunit.xml
 
 # vagrant runtime
 /.vagrant
