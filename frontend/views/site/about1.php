@@ -176,8 +176,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			<p> </p>
 		</div>
 	</div>
-	<script type="text/javascript" src="../../../frontend/web/js/canvas-nest.min.js"></script>　　
-	<script type="text/javascript" src="../../../frontend/web/js/emojiCursor.js"></script>　
+	<script type="text/javascript" src="../../../frontend/web/js/canvas-nest.min.js"></script>　
 </body>
 
 </html>
