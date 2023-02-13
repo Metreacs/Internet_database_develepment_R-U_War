@@ -33,6 +33,7 @@ $this->title = 'Contact';
 <?= Html::jsFile('@web/js/contact/jquery.waypoints.min.js') ?>
 <?= Html::jsFile('@web/js/contact/jquery.animateNumber.min.js') ?>
 <?= Html::jsFile('@web/js/contact/custom.js') ?>
+<?= Html::jsFile('@web/js/contact/canvas-nest.min.js') ?>
 
 <html lang="en">
 
@@ -49,7 +50,7 @@ $this->title = 'Contact';
         <li class="nav-item"><a class="nav-link active" href="../../web/site/contact">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/blogs/index">Blogs</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/site/signup">Signup</a></li>
-        <li class="nav-item"><a class="nav-link" href="../..web/site/login">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="../../web/site/login">Login</a></li>
       </ul>
     </div>
   </div>
@@ -86,19 +87,16 @@ $this->title = 'Contact';
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0">
-
-
             <img src="../../../frontend/web/img/aboutus/sq_img_10.jpg" alt="Image" class="img-fluid img-shadow">
             </a>
           </div>
           <div class="col-lg-5 ml-auto">
             <h3 class="section-title-sub text-primary">Who are we?</h3>
             <h2 class="section-title mb-3">我们是谁？</h2>
-            <p class="lead">我们是五个来自南开大学的学生。</p>
-            <p>我们开发这个网页是为了让人们更加了解新型冠状病毒的相关信息；</br>
-              我们通过收集全球各地的感染患者数量，将其制作为疫情地图直观的反映出来；</br>
-              我们收集来自各个媒体和机构对于这种病毒的报导，将其汇总、分类，形成了About, Research, News三个类目；</br>
-              我们更制作了相关的博客系统，希望人们能在此分享他们的抗疫感想和Vlog视频；</br>
+            <p class="lead">我们是三个来自南开大学的学生。</p>
+            <p>我们开发这个网页是为了让人们更加了俄乌战争的相关信息；</br>
+              我们收集了俄乌战争的一些基本信息，将其汇总放在了About中。</br>
+              我们更制作了相关的博客系统，希望人们能在此分享自己的一些思考或者发布一些恶相关的视频；</br>
               最后，希望人们能通过联系页面讲自己的信息及时反馈给我们。</p>
           </div>
         </div>
@@ -113,9 +111,9 @@ $this->title = 'Contact';
           <div class="col-md-6 align-self-center">
             <h3 class="section-title-sub text-primary">Key Feautures</h3>
             <h2 class="section-title mb-4">网站特点</h2>
-            <p class="lead">这是一个疫情资料站。</p>
-            <p>我们提供了各种关于COVID-19的信息，您可以在这里获取国内外关于疫情的最新研究和新闻资料，您也可以分享您的抗疫日记，将疫情期间拍摄的影像上传于本站，与更多人分享自己的生活。</p>
-            <p>同时，如果您对本网站的内容有任何疑问，或者有与新冠病毒有关的一切信息和内容，欢迎通过本页最下方的表格联系我们，您也可以获取我们的联络方式，以便在第一时间找到我们，真诚感谢您的支持！</p>
+            <p class="lead">这是关于俄乌战争的网站。</p>
+            <p>我们提供了各种关于俄乌战争的信息，您可以在这里获取国内对于俄乌战争的一些讨论，您也可以分享您对俄乌战争的一些思考和相关的视频，与更多人分享自己的想法。</p>
+            <p>同时，如果您对本网站的内容有任何疑问，或者有与俄乌战争有关的一切信息和内容，欢迎通过本页最下方的表格联系我们，您也可以获取我们的联络方式，以便在第一时间找到我们，真诚感谢您的支持！</p>
             <p class="mt-4"><a href="#contactformanchor" class="spepcial_link">跳转到联系表格</a></p>
           </div>
           <div class="col-md-5 ml-auto img-overlap">
@@ -124,42 +122,7 @@ $this->title = 'Contact';
           </div>
         </div>
 
-        <div class="row pb-0 border-top pt-5 block__19738 section-counter">
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-mobile mr-3"></span>
-              <strong class="number" data-number="131801">0</strong>
-            </div>
-            <span class="caption">Lines of Codes</span>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-lightbulb mr-3"></span>
-              <strong class="number" data-number="207">0</strong>
-            </div>
-            <span class="caption">Commits</span>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-trophy mr-3"></span>
-              <strong class="number" data-number="95">0</strong>
-            </div>
-            <span class="caption">Days Spent</span>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-puzzle mr-3"></span>
-              <strong class="number" data-number="7">0</strong>
-            </div>
-            <span class="caption">Meetings</span>
-          </div>
-
-
-        </div>
+        
 
       </div>
     </section>
@@ -174,39 +137,12 @@ $this->title = 'Contact';
         </div>
 
         <div class="row align-items-center block__69944">
-          <div class="col-lg-6 mb-5">
+         
+          <div class="col-lg-4">
             <img src="../../../frontend/web/img/aboutus/person_01.jpg" alt="Image" class="img-fluid mb-4 rounded">
 
-            <h3>黄璟知</h3>
+            <h3>吴传杰</h3>
             <p class="text-muted">组长</p>
-            <p class="lead">指导小组工作、博客和视频分享前后台、新闻前台</p>
-            <p>一只快乐的柠檬精</p>
-            <div class="social mt-4">
-              <a href="https://github.com/NebulaJZ" target="_blank"><span class="icon-github"></span></a>
-              <a href="mailto:13687978877@163.com" target="_blank"><span class="icon-envelope-o"></span></a>
-              <a href="https://nebulajz.github.io/" target="_blank"><span class="icon-institution"></span></a>
-            </div>
-
-          </div>
-          <div class="col-lg-6 mb-5">
-            <img src="../../../frontend/web/img/aboutus/person_02.jpg" alt="Image" class="img-fluid mb-4 rounded">
-            <h3>李彦欣</h3>
-            <p class="text-muted">组员</p>
-            <p class="lead">关于页面和用户注册登录前后台</p>
-            <p>人类的悲欢并不相通，但困、不想上学和戒不掉奶茶却是相通的。</p>
-            <div class="social mt-4">
-              <a href="https://github.com/Liyx55" target="_blank"><span class="icon-github"></span></a>
-              <a href="mailto:962417405@qq.com" target="_blank"><span class="icon-envelope-o"></span></a>
-              <a href="https://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4">
-            <img src="../../../frontend/web/img/aboutus/person_03.jpg" alt="Image" class="img-fluid mb-4 rounded">
-
-            <h3>孙家宜</h3>
-            <p class="text-muted">组员</p>
             <p class="lead">研究前后台，新闻后台和数据库</p>
             <p>只要你喜欢迪奥张，我们就是朋友</br>
                 不然，喜欢静香也行</p>
@@ -220,8 +156,8 @@ $this->title = 'Contact';
 
           </div>
           <div class="col-lg-4">
-            <img src="../../../frontend/web/img/aboutus/person_04.jpg" alt="Image" class="img-fluid mb-4 rounded">
-            <h3>徐云凯</h3>
+            <img src="../../../frontend/web/img/aboutus/person_02.jpg" alt="Image" class="img-fluid mb-4 rounded">
+            <h3>谢志颖</h3>
             <p class="text-muted">组员</p>
             <p class="lead">疫情地图数据爬虫、前后台及项目部署</p>
             <p>一只挑剔狗粮的纯种柴犬，最喜欢喝名叫Java的咖啡，不太喜欢JavaScript这种山寨咖啡，
@@ -234,8 +170,8 @@ $this->title = 'Contact';
           </div>
 
           <div class="col-lg-4">
-            <img src="../../../frontend/web/img/aboutus/person_05.jpg" alt="Image" class="img-fluid mb-4 rounded">
-            <h3>袁嘉蔚</h3>
+            <img src="../../../frontend/web/img/aboutus/person_03.jpg" alt="Image" class="img-fluid mb-4 rounded">
+            <h3>田佳业</h3>
             <p class="text-muted">组员</p>
             <p class="lead">联系、流量统计前后台和团队页面</p>
             <p>I always wanted to be a part of a small rebellion.</br>
@@ -316,7 +252,7 @@ $this->title = 'Contact';
 
     </div>
 
-
+    <script type="text/javascript" src="../../../frontend/web/js/canvas-nest.min.js"></script>
 </body>
 
 </html>

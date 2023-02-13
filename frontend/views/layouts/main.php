@@ -17,6 +17,7 @@ use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
 AppAsset::register($this);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -33,6 +34,7 @@ AppAsset::register($this);
 </head>
 
 <body>
+  
     <?php $this->beginBody() ?>
 
     <div class="wrap h-100 d-flex flex-column">
@@ -47,7 +49,6 @@ AppAsset::register($this);
     </div>
 
    
-
     <?php $this->endBody() ?>
 </body>
 

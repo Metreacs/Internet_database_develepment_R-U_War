@@ -14,10 +14,9 @@ $this->registerCssFile('@web/css/home.css');
 $this->registerJsFile('@web/js/home.js');
 
 $this->registerCssFile('@web/css/leaflet.css');
-//$this->registerCssFile('@web/css/plague-map.css');
 $this->registerJsFile("@web/js/jquery-3.4.1.min.js");
 $this->registerJsFile("@web/js/leaflet.js");
-//$this->registerJsFile("@web/js/plague-map.js");
+$this->registerJsFile("@web/js/canvas-nest.min.js");
 
 $url = Yii::getAlias("@web") . '/img/';
 $abouturl=Yii::$app->homeUrl . 'site/about';
