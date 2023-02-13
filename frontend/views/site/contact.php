@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Team:布利啾啾迪布利多,NKU
+ * Team:你说的都队,NKU
  * coding by 袁嘉蔚 1810546,20200509
  * a view of contact us page
  */
@@ -97,7 +97,7 @@ $this->title = 'Contact';
             <p>我们开发这个网页是为了让人们更加了俄乌战争的相关信息；</br>
               我们收集了俄乌战争的一些基本信息，将其汇总放在了About中。</br>
               我们更制作了相关的博客系统，希望人们能在此分享自己的一些思考或者发布一些恶相关的视频；</br>
-              最后，希望人们能通过联系页面讲自己的信息及时反馈给我们。</p>
+              最后，希望人们能通过联系页面将自己的信息及时反馈给我们。</p>
           </div>
         </div>
       </div>
@@ -143,14 +143,13 @@ $this->title = 'Contact';
 
             <h3>吴传杰</h3>
             <p class="text-muted">组长</p>
-            <p class="lead">研究前后台，新闻后台和数据库</p>
-            <p>只要你喜欢迪奥张，我们就是朋友</br>
-                不然，喜欢静香也行</p>
+            <p class="lead">负责home&about&contact界面和后台的设计</p>
+            <p>13年Jay粉!<br>喜欢唱、跳、rap、篮球、music(认真.jpg)</br>
                 <p> &nbsp; </p>
                 <p> &nbsp; </p>
             <div class="social mt-4">
-              <a href="https://github.com/Guru759" target="_blank"><span class="icon-github"></span></a>
-              <a href="mailto:2878271548@qq.com" target="_blank"><span class="icon-envelope-o"></span></a>
+              <a href="https://github.com/Metreacs" target="_blank"><span class="icon-github"></span></a>
+              <a href="mailto:1487743280@qq.com" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="https://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>
 
@@ -159,13 +158,12 @@ $this->title = 'Contact';
             <img src="../../../frontend/web/img/aboutus/person_02.jpg" alt="Image" class="img-fluid mb-4 rounded">
             <h3>谢志颖</h3>
             <p class="text-muted">组员</p>
-            <p class="lead">疫情地图数据爬虫、前后台及项目部署</p>
-            <p>一只挑剔狗粮的纯种柴犬，最喜欢喝名叫Java的咖啡，不太喜欢JavaScript这种山寨咖啡，
-              跟隔壁名叫Python的宠物蛇是好朋友，对用php这种材料做的狗狗玩具过敏，尤其不能闻到yii的味道，一闻就吐。</p>
+            <p class="lead">博客数据获取Blogs板块、注册登录页面以及Blogs板块前后台</p>
+            <p>体育馆或者图书馆总得有一个是我家</p>
             <div class="social mt-4">
               <a href="https://github.com/MilkyBoat" target="_blank"><span class="icon-github"></span></a>
-              <a href="mailto:xuyunkai@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
-              <a href="http://milkyship.cn/" target="_blank"><span class="icon-institution"></span></a>
+              <a href="mailto:2113302@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
+              <a href="http://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>
           </div>
 
@@ -173,14 +171,14 @@ $this->title = 'Contact';
             <img src="../../../frontend/web/img/aboutus/person_03.jpg" alt="Image" class="img-fluid mb-4 rounded">
             <h3>田佳业</h3>
             <p class="text-muted">组员</p>
-            <p class="lead">联系、流量统计前后台和团队页面</p>
+            <p class="lead">publish&video设计以及服务器部署</p>
             <p>I always wanted to be a part of a small rebellion.</br>
             そのままの君だ。いつまでも幸せに。</br>
             喜欢八爷、苏打、雅人叔、十元，最喜欢Gakki~</br>
             -オレンジうつ</p>
             <div class="social mt-4">
               <a href="https://github.com/tenkinoko" target="_blank"><span class="icon-github"></span></a>
-              <a href="mailto:1013198002@qq.com" target="_blank"><span class="icon-envelope-o"></span></a>
+              <a href="mailto:2013599@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="https://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>
           </div>
@@ -229,11 +227,11 @@ $this->title = 'Contact';
                 <p class="mb-0 font-weight-bold">地址</p>
                 <p class="mb-4">中国天津市津南区同砚路38号南开大学津南校区</p>
 
-                <p class="mb-0 font-weight-bold">微信</p>
-                <p class="mb-4">Niepeng_is_handsome</a></p>
+                <p class="mb-0 font-weight-bold">微博&B站</p>
+                <p class="mb-4">南开大学</a></p>
 
                 <p class="mb-0 font-weight-bold">邮箱</p>
-                <p class="mb-0"><a href="mailto:1020546@hust.edu.cn">Niepeng@is.very.handsome.cn</a></p>
+                <p class="mb-0"><a href="mailto:1020546@hust.edu.cn">NKU@mail.nankai.edu.cn</a></p>
                 <p> &nbsp; </p>
                 <p> &nbsp; </p>
                 <p> &nbsp; </p>
