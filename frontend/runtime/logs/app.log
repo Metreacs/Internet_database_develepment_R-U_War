@@ -16670,3 +16670,105 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1676282450.5123
     'REQUEST_TIME' => 1676282450
 ]
+2023-02-13 14:18:28 [127.0.0.1][-][0gvhmc2ve7ucamhnachccf8e9h][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'R-U.RU_Blog' doesn't exist in /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php(436): yii\db\Command->queryInternal()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/db/Query.php(497): yii\db\Command->queryScalar()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/db/ActiveQuery.php(352): yii\db\Query->queryScalar()
+#5 /var/www/html/RUW/vendor/yiisoft/yii2/db/Query.php(368): yii\db\ActiveQuery->queryScalar()
+#6 /var/www/html/RUW/common/models/RU_Blog.php(76): yii\db\Query->count()
+#7 /var/www/html/RUW/frontend/controllers/SiteController.php(86): common\models\RU_Blog::getAll()
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 /var/www/html/RUW/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#10 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 /var/www/html/RUW/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#12 /var/www/html/RUW/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#13 /var/www/html/RUW/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#14 /var/www/html/RUW/frontend/web/index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'R-U.RU_Blog' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `RU_Blog` in /var/www/html/RUW/vendor/yiisoft/yii2/db/Schema.php:676
+Stack trace:
+#0 /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/db/Command.php(436): yii\db\Command->queryInternal()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/db/Query.php(497): yii\db\Command->queryScalar()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/db/ActiveQuery.php(352): yii\db\Query->queryScalar()
+#5 /var/www/html/RUW/vendor/yiisoft/yii2/db/Query.php(368): yii\db\ActiveQuery->queryScalar()
+#6 /var/www/html/RUW/common/models/RU_Blog.php(76): yii\db\Query->count()
+#7 /var/www/html/RUW/frontend/controllers/SiteController.php(86): common\models\RU_Blog::getAll()
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 /var/www/html/RUW/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#10 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 /var/www/html/RUW/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#12 /var/www/html/RUW/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#13 /var/www/html/RUW/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#14 /var/www/html/RUW/frontend/web/index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'R-U.RU_Blog' doesn't exist
+)
+
+2023-02-13 14:18:28 [127.0.0.1][-][0gvhmc2ve7ucamhnachccf8e9h][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1501622985.1674623046'
+    'Pycharm-4a7ec667' => '732f073b-0610-4aca-bbce-fac8998b5f73'
+    'username-localhost-8888' => '\"2|1:0|10:1675417959|23:username-localhost-8888|44:OTQ1MmM3MWYzNDI0NDQ3N2FjZWNlNTQyYmJjM2RlZTg=|d27f3879e5cd911e85341cafd3965a1d9417530c0a58b18d044106b468ac9a1a\"'
+    '_xsrf' => '2|c8c125d0|032e7debff209277e2b58663fac0f4d6|1675417931'
+    '_identity' => 'b1c887667f9e5acd4c86614ae5f4b361d576364d3c8a5eeb482cacf9b947c9f7a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'JSESSIONID' => 'C40652C522C10C3005AB21DB4BE98BC5'
+    'Admin-Token' => 'eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRhYTU1NDVlLTc0M2ItNDVlZC04MDM3LWRmODdiZmQwYWIxNCJ9.yVhn3qB0H2SQet1BLnBg8Q70M2erV4hDQbhARfvRDv01YcZRKtoo5qhMTAdo9oNc2nAbY4syfDyf02iqMgpe0w'
+    'isvipretainend' => ''
+    'isfreeretainend' => ''
+    'vipPromorunningtmr' => ''
+    'freePromorunningtmr' => ''
+    'advanced-frontend' => '0gvhmc2ve7ucamhnachccf8e9h'
+    '_csrf-frontend' => '6697148c55f5a94057045417ea7cf3169f317074f9c1a254c3f77f3a6ec18b45a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"CwY39UHd-BXWshrzOUTtQMSJ-cIY17Ag\";}'
+    'PHPSESSID' => 'u3dg99u4a0hfa88sucuv4nklnr'
+    '_csrf' => '7399e53ab25df20090067459a0011d5b741c630ce48fd865ddcf2b512da11911a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vVD-Thufl50oWL0FyV-tQeKXpkdE3Vqk\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/var/www/html/RUW/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34260'
+    'SERVER_SOFTWARE' => 'PHP 7.4.33 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_ga=GA1.1.1501622985.1674623046; Pycharm-4a7ec667=732f073b-0610-4aca-bbce-fac8998b5f73; username-localhost-8888=\"2|1:0|10:1675417959|23:username-localhost-8888|44:OTQ1MmM3MWYzNDI0NDQ3N2FjZWNlNTQyYmJjM2RlZTg=|d27f3879e5cd911e85341cafd3965a1d9417530c0a58b18d044106b468ac9a1a\"; _xsrf=2|c8c125d0|032e7debff209277e2b58663fac0f4d6|1675417931; _identity=b1c887667f9e5acd4c86614ae5f4b361d576364d3c8a5eeb482cacf9b947c9f7a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; JSESSIONID=C40652C522C10C3005AB21DB4BE98BC5; Admin-Token=eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRhYTU1NDVlLTc0M2ItNDVlZC04MDM3LWRmODdiZmQwYWIxNCJ9.yVhn3qB0H2SQet1BLnBg8Q70M2erV4hDQbhARfvRDv01YcZRKtoo5qhMTAdo9oNc2nAbY4syfDyf02iqMgpe0w; isvipretainend=; isfreeretainend=; vipPromorunningtmr=; freePromorunningtmr=; advanced-frontend=0gvhmc2ve7ucamhnachccf8e9h; _csrf-frontend=6697148c55f5a94057045417ea7cf3169f317074f9c1a254c3f77f3a6ec18b45a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CwY39UHd-BXWshrzOUTtQMSJ-cIY17Ag%22%3B%7D; PHPSESSID=u3dg99u4a0hfa88sucuv4nklnr; _csrf=7399e53ab25df20090067459a0011d5b741c630ce48fd865ddcf2b512da11911a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vVD-Thufl50oWL0FyV-tQeKXpkdE3Vqk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'REQUEST_TIME_FLOAT' => 1676297908.1758
+    'REQUEST_TIME' => 1676297908
+]

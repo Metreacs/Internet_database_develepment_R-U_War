@@ -14,7 +14,7 @@ use yii\helpers\Html;
 
 $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
-
+$imgurl = Yii::getAlias("@web") . '/img/';
 
 ?>
 
@@ -89,7 +89,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <body>
 	<div class="box">
-		<img id="pic" src="../../../frontend/web/img/0.jpg" />
+		<img id="pic" src="<?= $imgurl ?>0.jpg" />
 	</div>
 	<div>
 		<input type="button" class="btn1" value="上一张" />

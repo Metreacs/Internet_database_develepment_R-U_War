@@ -45,7 +45,7 @@ for line in main_local:
 connect = sql.connect(host=theHost,
                       user=username,passwd=password,db=database)
 cur = connect.cursor()
-cur.execute("use {}".format(database))
+cur.execute("use `{}`".format(database))
 
 header={'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
 

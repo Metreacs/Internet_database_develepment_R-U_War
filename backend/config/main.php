@@ -42,12 +42,12 @@ return [
             'errorAction' => 'site/error',
         ],
         
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
+        // 'urlManager' => [
+        //     'enablePrettyUrl' => true,
+        //     'showScriptName' => false,
+        //     'rules' => [
+        //     ],
+        // ],
         'userCounter' => [
             'class' => 'backend\components\UserCounter',
             'tableUsers' => 'pcounter_users',

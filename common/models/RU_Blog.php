@@ -27,7 +27,7 @@ class RU_Blog extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%RU_Blog}}';
+        return '{{%ru_blog}}';
     }
 
     /**

@@ -18,22 +18,21 @@ $this->registerJsFile("@web/js/jquery-3.4.1.min.js");
 $this->registerJsFile("@web/js/leaflet.js");
 $this->registerJsFile("@web/js/canvas-nest.min.js");
 
-$url = Yii::getAlias("@web") . '/img/';
-$abouturl=Yii::$app->homeUrl . 'site/about';
-
+$imgurl = Yii::getAlias("@web") . '/img/';
+$abouturl=Url::to(['site/about']);
 $this->title = '俄乌战争网';
 ?>
 <div class="site-index">
     <div id="homepage"  style="text-align:center;padding:20px 20px 0px">
     <a href="<?= $abouturl ?>">
-        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=640px />
+        <img src="<?= $imgurl ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=640px />
     </a>
     </div>
     <section class="slider"></section>
     <div class="container">
         <div class="card-carousel">
             <div class="card" id="1">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>kewadi.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>kewadi.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
 
                 </div>
                 <div class="sliderCaption" style="text-align:center;padding:20px 20px 0px">
@@ -45,7 +44,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="2">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>feizhou.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>feizhou.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
                 </div>
                 <div class="sliderCaption">
                     <a href="<?= $news[2]->sourceUrl ?>" style="font-size: 22px;font-weight:600;color:#4a0d66"><?=$news[2]->title?></a>
@@ -56,7 +55,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="3">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>meiguo.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>meiguo.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
 
                 </div>
                 <div class="sliderCaption">
@@ -68,7 +67,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="4">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>shiwei.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>shiwei.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
 
                 </div>
                 <div class="sliderCaption">
@@ -80,7 +79,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="5">
-                <div class="sliderThumb" style="background: url(<?= $url ?>mei.png) 50% 50% no-repeat;background-size:cover;height:60%;width:100%" <div class="sliderCaption">
+                <div class="sliderThumb" style="background: url(<?= $imgurl ?>mei.png) 50% 50% no-repeat;background-size:cover;height:60%;width:100%" <div class="sliderCaption">
                 </div>
                 <div class="sliderCaption">
                     <a href="<?= $news[5]->sourceUrl ?>" style="font-size: 22px;font-weight:600;color:#4a0d66"><?=$news[5]->title?></a>
