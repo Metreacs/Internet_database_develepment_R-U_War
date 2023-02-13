@@ -68,7 +68,7 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-laptop-phone"></span>
-                <a href="../../../data/team/你说的都队_需求文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_需求文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>需求文档</h4></a>
+                <a href="../../../data/team/你说的都队_需求文档(2013778_2113302_2013599).pdf" download="你说的都队_需求文档(2013778_2113302_2013599).pdf"><h4>需求文档</h4></a>
                 <p>
                   Made by 谢志颖, 2113302
                 </p>
@@ -77,7 +77,7 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-file-empty"></span>
-                <a href="../../../data/team/你说的都队_设计文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_设计文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>设计文档</h4></a>
+                <a href="../../../data/team/你说的都队_设计文档(2013778_2113302_2013599).pdf" download="你说的都队_设计文档(2013778_2113302_2013599).pdf"><h4>设计文档</h4></a>
                 <p>
                   Made by 谢志颖, 2113302
                 </p>
@@ -86,7 +86,7 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-picture"></span>
-                <a href="../../../data/team/你说的都队_实现文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_实现文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>实现文档</h4></a>
+                <a href="../../../data/team/你说的都队_实现文档(2013778_2113302_2013599).pdf" download="你说的都队_实现文档(2013778_2113302_2013599).pdf"><h4>实现文档</h4></a>
                 <p>
                   Made by All Members
                 </p>
@@ -95,7 +95,7 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-tablet"></span>
-                <a href="../../../data/team/你说的都队_用户手册(1810729_1810756_1813265_1713667_1810546).pdf"  download="你说的都队_用户手册(1810729_1810756_1813265_1713667_1810546).pdf"><h4>用户手册</h4></a>
+                <a href="../../../data/team/你说的都队_用户手册(2013778_2113302_2013599).pdf"  download="你说的都队_用户手册(2013778_2113302_2013599).pdf"><h4>用户手册</h4></a>
                 <p>
                   Made by 田佳业, 2013599
                 </p>
@@ -104,7 +104,7 @@ $this->title = 'Homework';
                         <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-enter"></span>
-                <a href="../../../data/team/你说的都队_部署文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_部署文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>部署文档</h4></a>
+                <a href="../../../data/team/你说的都队_部署文档(2013778_2113302_2013599).pdf" download="你说的都队_部署文档(2013778_2113302_2013599).pdf"><h4>部署文档</h4></a>
                 <p>
                   Made by 田佳业, 2013599
                 </p>
@@ -113,7 +113,7 @@ $this->title = 'Homework';
                       <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-pie-chart"></span>
-                <a href="../../../data/team/你说的都队_项目展示(1810729_1810756_1813265_1713667_1810546).pptx" download="你说的都队_项目展示(1810729_1810756_1813265_1713667_1810546).pdf"><h4>项目展示PPT</h4></a>
+                <a href="../../../data/team/你说的都队_项目展示(2013778_2113302_2013599).pptx" download="你说的都队_项目展示(2013778_2113302_2013599).pdf"><h4>项目展示PPT</h4></a>
                 <p>
                   Made by 吴传杰，2013778
                 </p>
@@ -122,7 +122,7 @@ $this->title = 'Homework';
                       <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-camera"></span>
-                <a href="../../../data/team/你说的都队_录屏讲解(1810729_1810756_1813265_1713667_1810546).mp4" download="你说的都队_录屏讲解(1810729_1810756_1813265_1713667_1810546).mp4"><h4>录屏讲解</h4></a>
+                <a href="../../../data/team/你说的都队_录屏讲解(2013778_2113302_2013599).mp4" download="你说的都队_录屏讲解(2013778_2113302_2013599).mp4"><h4>录屏讲解</h4></a>
                 <p>
                   Made by 吴传杰，2013778
                 </p>
@@ -196,9 +196,9 @@ $this->title = 'Homework';
               </div>
               <div class="package-list">
                 <ul>
-                  <li>黄璟知 李彦欣</li>
-                  <li>孙家宜 徐云凯</li>
-                  <li>袁嘉蔚</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
                 </ul>
               </div>
               <div class="bottom-part">
