@@ -44,11 +44,10 @@ $this->title = 'Contact';
       <ul id="w1" class="navbar-nav ml-auto nav">
         <li class="nav-item"><a class="nav-link" href="../../web/site/index">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/site/about">About</a></li>
-        <li class="nav-item"><a class="nav-link " href="../../web/blog/blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link " href="../../web/blog/blog">Publish</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/video/index">Video</a></li>
         <li class="nav-item"><a class="nav-link active" href="../../web/site/contact">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="../../web/news/index">News</a></li>
-        <li class="nav-item"><a class="nav-link" href="../../web/site/research">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="../../web/blogs/index">Blogs</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/site/signup">Signup</a></li>
         <li class="nav-item"><a class="nav-link" href="../..web/site/login">Login</a></li>
       </ul>
