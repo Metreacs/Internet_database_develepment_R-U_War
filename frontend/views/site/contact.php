@@ -171,10 +171,8 @@ $this->title = 'Contact';
             <h3>田佳业</h3>
             <p class="text-muted">组员</p>
             <p class="lead">publish&video设计以及服务器部署</p>
-            <p>I always wanted to be a part of a small rebellion.</br>
-            そのままの君だ。いつまでも幸せに。</br>
-            喜欢八爷、苏打、雅人叔、十元，最喜欢Gakki~</br>
-            -オレンジうつ</p>
+            <p>互联网数据库破防</br>
+            </p>
             <div class="social mt-4">
               <a href="https://github.com/tenkinoko" target="_blank"><span class="icon-github"></span></a>
               <a href="mailto:2013599@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
