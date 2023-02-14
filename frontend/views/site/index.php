@@ -24,9 +24,9 @@ $abouturl=Yii::$app->homeUrl . 'site/about';
 $this->title = '俄乌战争网';
 ?>
 <div class="site-index">
-    <div id="homepage"  style="text-align:center;padding:20px 20px 0px">
+    <div id="homepage"  style="text-align:center">
     <a href="<?= $abouturl ?>">
-        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=760px />
+        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=830px />
     </a>
     </div>
     <section class="slider"></section>
