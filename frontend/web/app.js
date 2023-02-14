@@ -1,4 +1,4 @@
-/*coding by huangjz*/
+/*coding by wcj*/
 
 $(function () {
     'use strict';

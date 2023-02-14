@@ -2627,15 +2627,28 @@ $_POST = []
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -2689,21 +2702,102 @@ Stack trace:
 #5 [internal function]: yii\log\Logger->flush()
 #6 {main}
 2023-02-14 11:20:10 [111.33.78.6][28][-][info][application] $_GET = []
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8912'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '2849'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676355476.9478
+    'REQUEST_TIME' => 1676355476
+]
+2023-02-14 14:18:25 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:18:25 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -2821,21 +2915,102 @@ Stack trace:
 2023-02-14 11:20:12 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'video/index'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8912'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '2870'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676355505.5047
+    'REQUEST_TIME' => 1676355505
+]
+2023-02-14 14:33:05 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:33:05 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -2953,21 +3128,102 @@ Stack trace:
 2023-02-14 11:20:13 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'article/index'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28201'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356385.4724
+    'REQUEST_TIME' => 1676356385
+]
+2023-02-14 14:33:12 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:33:12 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3085,21 +3341,102 @@ Stack trace:
 2023-02-14 11:20:14 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'cov-news/index'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28208'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356392.8073
+    'REQUEST_TIME' => 1676356392
+]
+2023-02-14 14:36:45 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:36:45 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3217,21 +3554,102 @@ Stack trace:
 2023-02-14 11:20:18 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'contactform/index'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28324'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356605.2929
+    'REQUEST_TIME' => 1676356605
+]
+2023-02-14 14:37:02 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:37:02 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3349,21 +3767,102 @@ Stack trace:
 2023-02-14 11:20:19 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'pcounter-users/index'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28343'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356622.438
+    'REQUEST_TIME' => 1676356622
+]
+2023-02-14 14:37:15 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:37:15 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3481,21 +3980,104 @@ Stack trace:
 2023-02-14 11:20:20 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'pcounter-save/index'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28344'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356635.4444
+    'REQUEST_TIME' => 1676356635
+]
+2023-02-14 14:37:51 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:37:51 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3543,21 +4125,102 @@ $_SERVER = [
 2023-02-14 11:20:21 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'site/homework'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28419'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356671.5133
+    'REQUEST_TIME' => 1676356671
+]
+2023-02-14 14:37:56 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:37:56 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3613,21 +4276,102 @@ Stack trace:
 2023-02-14 11:20:21 [111.33.78.6][28][-][info][application] $_GET = [
     'r' => 'site/homework'
 ]
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '28419'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356676.7269
+    'REQUEST_TIME' => 1676356676
+]
+2023-02-14 14:41:48 [::1][28][9s9juf0qbatn1f371amv2ntto8][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "tagsinput/tagsinput,css". in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('tagsinput/tagsi...', Array)
+#1 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpstudy_pro\WWW\R-U_War\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy_pro\WWW\R-U_War\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2023-02-14 14:41:48 [::1][28][9s9juf0qbatn1f371amv2ntto8][info][application] $_GET = []
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 
 $_POST = []
 
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
     '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
     'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
     '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
     '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+=======
+    'SL_G_WPT_TO' => 'eo'
+    'SL_GWPT_Show_Hide_tmp' => 'undefined'
+    'SL_wptGlobTipTmp' => 'undefined'
+    'advanced-backend' => '9s9juf0qbatn1f371amv2ntto8'
+    '_identity-backend' => 'a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-backend' => 'c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v\";}'
+    'advanced-frontend' => 'orhq01v6ti7nc4ffhraer5123n'
+    '_identity-frontend' => '40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+    '_csrf-frontend' => '892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1\";}'
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
     '__id' => 28
     '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
@@ -3667,4 +4411,60 @@ $_SERVER = [
     'PHP_SELF' => '/RUW/backend/web/index.php'
     'REQUEST_TIME_FLOAT' => 1676373621.7214
     'REQUEST_TIME' => 1676373621
+=======
+    '__returnUrl' => 'http://localhost/R-U_War/backend/web/index.php?r=site%2Flogin'
+    '__id' => 28
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Tomcat\\apache-tomcat-8.5.79\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\phpstudy_pro\\Extensions\\php\\php7.3.4nts;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\微信web开发者工具\\dll;D:\\PuT;Y\\;D:\\Python3\\Scripts\\;D:\\Python3\\;D:\\Python2\\Scripts\\;D:\\Python2\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools\\WinNT;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\MSDev98\\Bin;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\Common\\Tools;D:\\BaiduNetdiskDownload\\软件安全\\工具\\Microsoft Visual Studio\\VC98\\bin;C:\\Users\\Trump\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Microsoft VS Code\\bin;D:\\IntelliJ IDEA 2022.1.1\\bin;D:\\Nmap'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'D:/phpstudy_pro/Extensions/php/php7.3.4nts'
+    '_FCGI_SHUTDOWN_EVENT_' => '8940'
+    'SCRIPT_NAME' => '/R-U_War/backend/web/index.php'
+    'REQUEST_URI' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/R-U_War/backend/web/tagsinput/tagsinput,css'
+    'REMOTE_PORT' => '1165'
+    'SCRIPT_FILENAME' => 'D:/phpstudy_pro/WWW/R-U_War/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpstudy_pro/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; advanced-backend=9s9juf0qbatn1f371amv2ntto8; _identity-backend=a22118f1c1e08016c6695b9f5d9cdb53c91c5af339d42b17e70973958d275510a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e991dbed4ec0e7653eace4eb646092ed5301b8396f5a7080da08c27d94c79ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sQOhyf33Ur-4um7iar-jd-sNLs4XNF5v%22%3B%7D; advanced-frontend=orhq01v6ti7nc4ffhraer5123n; _identity-frontend=40f00ac9dc2a6d9f1e82814d6ce980641597b090ec9237167eb155888ed9b447a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D; _csrf-frontend=892067d4b3f0cf41422456721f7fd0b6ab65ad28830d3d74903038617a528bb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vGw2uZto9IVY_JqQIPXrEJtSUl1_LAW1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://localhost/R-U_War/backend/web/video/update?id=PAnKGl9G'
+    'HTTP_SEC_FETCH_DEST' => 'style'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"107\", \"Chromium\";v=\"107\", \"Not=A?Brand\";v=\"24\"'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/R-U_War/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676356908.7563
+    'REQUEST_TIME' => 1676356908
+>>>>>>> 67fc8fb7da1568156e0822342d37fc05048709cf
 ]

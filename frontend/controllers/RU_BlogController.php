@@ -1,6 +1,6 @@
 <?php
 /**
- * Team:布利啾啾迪布利多,NKU
+ * Team:你说的都队,NKU
  * coding by 谢志颖 2113302
  */
 

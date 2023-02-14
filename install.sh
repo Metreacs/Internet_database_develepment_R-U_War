@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Team:布利啾啾迪布利多,NKU
-# coding by 徐云凯 1713667
+# Team:你说的都队,NKU
+# coding by 吴传杰 2013778
 # 一键部署脚本
 
 if ! [ -x "$(command -v php)" ]; then
@@ -55,7 +55,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=covid19',
+            'dsn' => 'mysql:host=localhost;dbname=RU',
             'username' => '${user}',
             'password' => '${password}',
             'charset' => 'utf8mb4',

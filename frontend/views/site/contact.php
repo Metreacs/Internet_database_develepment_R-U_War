@@ -2,7 +2,7 @@
 
 /**
  * Team:你说的都队,NKU
- * coding by 袁嘉蔚 1810546,20200509
+ * coding by 吴传杰，2013778
  * a view of contact us page
  */
 
@@ -100,6 +100,7 @@ $this->title = 'Contact';
               我们收集了俄乌战争的一些基本信息，将其汇总放在了About中。</br>
               我们更制作了相关的博客系统，希望人们能在此分享自己的一些思考或者发布一些恶相关的视频；</br>
               最后，希望人们能通过联系页面将自己的信息及时反馈给我们。</p>
+              最后，希望人们能通过联系页面将自己的信息及时反馈给我们。</p>
           </div>
         </div>
       </div>
@@ -147,9 +148,13 @@ $this->title = 'Contact';
             <p class="text-muted">组长</p>
             <p class="lead">负责home&about&contact界面和后台的设计</p>
             <p>13年Jay粉!<br>喜欢唱、跳、rap、篮球、music(认真.jpg)</br>
+            <p class="lead">负责home&about&contact界面和后台的设计</p>
+            <p>13年Jay粉!<br>喜欢唱、跳、rap、篮球、music(认真.jpg)</br>
                 <p> &nbsp; </p>
                 <p> &nbsp; </p>
             <div class="social mt-4">
+              <a href="https://github.com/Metreacs" target="_blank"><span class="icon-github"></span></a>
+              <a href="mailto:1487743280@qq.com" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="https://github.com/Metreacs" target="_blank"><span class="icon-github"></span></a>
               <a href="mailto:1487743280@qq.com" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="https://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
@@ -162,8 +167,12 @@ $this->title = 'Contact';
             <p class="text-muted">组员</p>
             <p class="lead">博客数据获取Blogs板块、注册登录页面以及Blogs板块前后台</p>
             <p>体育馆或者图书馆总得有一个是我家</p>
+            <p class="lead">博客数据获取Blogs板块、注册登录页面以及Blogs板块前后台</p>
+            <p>体育馆或者图书馆总得有一个是我家</p>
             <div class="social mt-4">
               <a href="https://github.com/MilkyBoat" target="_blank"><span class="icon-github"></span></a>
+              <a href="mailto:2113302@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
+              <a href="http://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
               <a href="mailto:2113302@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="http://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>
@@ -174,12 +183,14 @@ $this->title = 'Contact';
             <h3>田佳业</h3>
             <p class="text-muted">组员</p>
             <p class="lead">publish&video设计以及服务器部署</p>
+            <p class="lead">publish&video设计以及服务器部署</p>
             <p>I always wanted to be a part of a small rebellion.</br>
             そのままの君だ。いつまでも幸せに。</br>
             喜欢八爷、苏打、雅人叔、十元，最喜欢Gakki~</br>
             -オレンジうつ</p>
             <div class="social mt-4">
               <a href="https://github.com/tenkinoko" target="_blank"><span class="icon-github"></span></a>
+              <a href="mailto:2013599@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="mailto:2013599@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="https://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>

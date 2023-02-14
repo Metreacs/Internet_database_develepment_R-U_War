@@ -1,9 +1,12 @@
 <?php
-
+/**
+ * Team:你说的都队,NKU
+ * coding by 谢志颖 2113302
+ */
 use yii\widgets\LinkPager;
 use yii\helpers\Url;
 use yii\helpers\Html;
-$this->title = 'News';
+$this->title = 'Blogs';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
