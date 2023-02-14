@@ -1,7 +1,7 @@
 <?php
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by 袁嘉蔚 1810546,20200509
+ * Team:你说的都队,NKU
+ * coding by 吴传杰 2013778
  * a view of homework download page - a little bit fancy
  */
 /* @var $this yii\web\View */
@@ -59,7 +59,7 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-home"></span>
-                <a href="../../../data/team/布利啾啾迪布利多.zip" download="布利啾啾迪布利多.zip"><h4>下载全部团队作业文件</h4></a>
+                <a href="../../../data/team/你说的都队.zip" download="你说的都队.zip"><h4>下载全部团队作业文件</h4></a>
                 <p>
                   Include All Teamwork Files
                 </p>
@@ -68,25 +68,25 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-laptop-phone"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_需求文档(1810729_1810756_1813265_1713667_1810546).pdf" download="布利啾啾迪布利多_需求文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>需求文档</h4></a>
+                <a href="../../../data/team/你说的都队_需求文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_需求文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>需求文档</h4></a>
                 <p>
-                  Made by 黄璟知, 1810729
+                  Made by 谢志颖, 2113302
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-file-empty"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_设计文档(1810729_1810756_1813265_1713667_1810546).pdf" download="布利啾啾迪布利多_设计文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>设计文档</h4></a>
+                <a href="../../../data/team/你说的都队_设计文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_设计文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>设计文档</h4></a>
                 <p>
-                  Made by 孙家宜, 1810756
+                  Made by 谢志颖, 2113302
                 </p>
               </div>  
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-picture"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_实现文档(1810729_1810756_1813265_1713667_1810546).pdf" download="布利啾啾迪布利多_实现文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>实现文档</h4></a>
+                <a href="../../../data/team/你说的都队_实现文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_实现文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>实现文档</h4></a>
                 <p>
                   Made by All Members
                 </p>
@@ -95,36 +95,36 @@ $this->title = 'Homework';
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-tablet"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_用户手册(1810729_1810756_1813265_1713667_1810546).pdf"  download="布利啾啾迪布利多_用户手册(1810729_1810756_1813265_1713667_1810546).pdf"><h4>用户手册</h4></a>
+                <a href="../../../data/team/你说的都队_用户手册(1810729_1810756_1813265_1713667_1810546).pdf"  download="你说的都队_用户手册(1810729_1810756_1813265_1713667_1810546).pdf"><h4>用户手册</h4></a>
                 <p>
-                  Made by 李彦欣, 1813265
+                  Made by 田佳业, 2013599
                 </p>
               </div>
             </div>
                         <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-enter"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_部署文档(1810729_1810756_1813265_1713667_1810546).pdf" download="布利啾啾迪布利多_部署文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>部署文档</h4></a>
+                <a href="../../../data/team/你说的都队_部署文档(1810729_1810756_1813265_1713667_1810546).pdf" download="你说的都队_部署文档(1810729_1810756_1813265_1713667_1810546).pdf"><h4>部署文档</h4></a>
                 <p>
-                  Made by 徐云凯, 1713667
+                  Made by 田佳业, 2013599
                 </p>
               </div>
             </div>
                       <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-pie-chart"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_项目展示(1810729_1810756_1813265_1713667_1810546).pptx" download="布利啾啾迪布利多_项目展示(1810729_1810756_1813265_1713667_1810546).pdf"><h4>项目展示PPT</h4></a>
+                <a href="../../../data/team/你说的都队_项目展示(1810729_1810756_1813265_1713667_1810546).pptx" download="你说的都队_项目展示(1810729_1810756_1813265_1713667_1810546).pdf"><h4>项目展示PPT</h4></a>
                 <p>
-                  Made by 袁嘉蔚, 1810546
+                  Made by 吴传杰，2013778
                 </p>
               </div>
             </div>
                       <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-camera"></span>
-                <a href="../../../data/team/布利啾啾迪布利多_录屏讲解(1810729_1810756_1813265_1713667_1810546).mp4" download="布利啾啾迪布利多_录屏讲解(1810729_1810756_1813265_1713667_1810546).mp4"><h4>录屏讲解</h4></a>
+                <a href="../../../data/team/你说的都队_录屏讲解(1810729_1810756_1813265_1713667_1810546).mp4" download="你说的都队_录屏讲解(1810729_1810756_1813265_1713667_1810546).mp4"><h4>录屏讲解</h4></a>
                 <p>
-                  Made by 黄璟知, 1810729
+                  Made by 吴传杰，2013778
                 </p>
               </div>
             </div>
@@ -137,29 +137,6 @@ $this->title = 'Homework';
                 </p>
               </div>        
             </div>                            
-          </div>
-        </div>  
-      </section>
-
-      <section class="facts-area section-gap" id="facts-area">
-        <div class="container">       
-          <div class="row">
-            <div class="col-lg-3 col-md-6 single-fact">
-              <h1 class="counter">131801</h1>
-              <p>Lines of Code</p>
-            </div>
-            <div class="col-lg-3 col-md-6 single-fact">
-              <h1 class="counter">207</h1>
-              <p>Commits</p>
-            </div>
-            <div class="col-lg-3 col-md-6 single-fact">
-              <h1 class="counter">7</h1>
-              <p>Meetings</p>
-            </div>  
-            <div class="col-lg-3 col-md-6 single-fact">
-              <h1 class="counter">5</h1>
-              <p>Splendid Team Workers</p>
-            </div>                        
           </div>
         </div>  
       </section>

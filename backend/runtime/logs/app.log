@@ -2232,3 +2232,1439 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1676298751.3608
     'REQUEST_TIME' => 1676298751
 ]
+2023-02-14 11:20:03 [111.33.78.6][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:03 [111.33.78.6][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuY10oyilflykH6TnC4wAAAAs'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59090'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/backend/web/'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373603.0242
+    'REQUEST_TIME' => 1676373603
+]
+2023-02-14 11:20:03 [111.33.78.6][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e630c576.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:03 [111.33.78.6][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuY10oyilflykH6TnC4wAAAAs'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59090'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/backend/web/'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373603.0242
+    'REQUEST_TIME' => 1676373603
+]
+2023-02-14 11:20:03 [111.33.78.6][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/SiteController.php:96
+2023-02-14 11:20:03 [111.33.78.6][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:03 [111.33.78.6][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'ego6uqktl53osurk603ul62bla'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuYxpuk7ysFzYu2kzrJAAAAAw'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=ego6uqktl53osurk603ul62bla'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59092'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373603.1034
+    'REQUEST_TIME' => 1676373603
+]
+2023-02-14 11:20:03 [111.33.78.6][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e631f5ed.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:03 [111.33.78.6][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'ego6uqktl53osurk603ul62bla'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuYxpuk7ysFzYu2kzrJAAAAAw'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=ego6uqktl53osurk603ul62bla'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59092'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373603.1034
+    'REQUEST_TIME' => 1676373603
+]
+2023-02-14 11:20:10 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:09 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'mlmPWxMs8hZS9apOymmoztIezIQ-cOOWNDIGY53GY8b7Hd8vY0CgcSWxhz6TGeK961SGtVMhoe9YWlY6zZBakA=='
+    'LoginForm' => [
+        'username' => '123456'
+        'password' => '123456'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'ego6uqktl53osurk603ul62bla'
+    '_csrf-backend' => '33abf9e6a6fad54902d51e28c89caf4c147f06fec6dc198c8f3fea8546c874fca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"aDPtplRgwD-pYpJs9JJ1mQBylhPYPV9V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuaWFxOFyLvfoK4wxb2QAAAAQ'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'CONTENT_LENGTH' => '238'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=ego6uqktl53osurk603ul62bla; _csrf-backend=33abf9e6a6fad54902d51e28c89caf4c147f06fec6dc198c8f3fea8546c874fca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22aDPtplRgwD-pYpJs9JJ1mQBylhPYPV9V%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://8.130.17.136'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=site%2Flogin'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59134'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373609.6608
+    'REQUEST_TIME' => 1676373609
+]
+2023-02-14 11:20:10 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e69a72e7.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:09 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'mlmPWxMs8hZS9apOymmoztIezIQ-cOOWNDIGY53GY8b7Hd8vY0CgcSWxhz6TGeK961SGtVMhoe9YWlY6zZBakA=='
+    'LoginForm' => [
+        'username' => '123456'
+        'password' => '123456'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'ego6uqktl53osurk603ul62bla'
+    '_csrf-backend' => '33abf9e6a6fad54902d51e28c89caf4c147f06fec6dc198c8f3fea8546c874fca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"aDPtplRgwD-pYpJs9JJ1mQBylhPYPV9V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuaWFxOFyLvfoK4wxb2QAAAAQ'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'CONTENT_LENGTH' => '238'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=ego6uqktl53osurk603ul62bla; _csrf-backend=33abf9e6a6fad54902d51e28c89caf4c147f06fec6dc198c8f3fea8546c874fca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22aDPtplRgwD-pYpJs9JJ1mQBylhPYPV9V%22%3B%7D'
+    'HTTP_ORIGIN' => 'http://8.130.17.136'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=site%2Flogin'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59134'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373609.6608
+    'REQUEST_TIME' => 1676373609
+]
+2023-02-14 11:20:10 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/SiteController.php:64
+2023-02-14 11:20:10 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:10 [111.33.78.6][28][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuag6UZwBQ5Hqv-@v0WAAAAAA'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=site%2Flogin'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/backend/web/'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373610.3559
+    'REQUEST_TIME' => 1676373610
+]
+2023-02-14 11:20:10 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e6a613a0.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:10 [111.33.78.6][28][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuag6UZwBQ5Hqv-@v0WAAAAAA'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=site%2Flogin'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/backend/web/'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373610.3559
+    'REQUEST_TIME' => 1676373610
+]
+2023-02-14 11:20:12 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/VideoController.php:60
+2023-02-14 11:20:12 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:12 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'video/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tubHKJ9ShToLS3UJGAlwAAAAU'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59153'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=video%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=video%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373612.2022
+    'REQUEST_TIME' => 1676373612
+]
+2023-02-14 11:20:12 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e6c3bd04.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:12 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'video/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tubHKJ9ShToLS3UJGAlwAAAAU'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59153'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=video%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=video%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373612.2022
+    'REQUEST_TIME' => 1676373612
+]
+2023-02-14 11:20:13 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/ArticleController.php:53
+2023-02-14 11:20:13 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:13 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'article/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tubV0oyilflykH6TnC5AAAAAs'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=video%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=article%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=article%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373613.1593
+    'REQUEST_TIME' => 1676373613
+]
+2023-02-14 11:20:13 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e6d30142.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:13 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'article/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tubV0oyilflykH6TnC5AAAAAs'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=video%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=article%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=article%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373613.1593
+    'REQUEST_TIME' => 1676373613
+]
+2023-02-14 11:20:14 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/CovNewsController.php:59
+2023-02-14 11:20:14 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:14 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'cov-news/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tubp-yNgoSv2L2isQPFwAAAA8'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=article%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59179'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cov-news%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=cov-news%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373614.2998
+    'REQUEST_TIME' => 1676373614
+]
+2023-02-14 11:20:14 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e6e52158.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:14 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'cov-news/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tubp-yNgoSv2L2isQPFwAAAA8'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=article%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59179'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cov-news%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=cov-news%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373614.2998
+    'REQUEST_TIME' => 1676373614
+]
+2023-02-14 11:20:18 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/ContactformController.php:60
+2023-02-14 11:20:18 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:18 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'contactform/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tucht2zdgn4rn63VftIQAAAA0'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=cov-news%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59200'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactform%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=contactform%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373618.7313
+    'REQUEST_TIME' => 1676373618
+]
+2023-02-14 11:20:18 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e72bdd93.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:18 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'contactform/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tucht2zdgn4rn63VftIQAAAA0'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=cov-news%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59200'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=contactform%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=contactform%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373618.7313
+    'REQUEST_TIME' => 1676373618
+]
+2023-02-14 11:20:19 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/PcounterUsersController.php:57
+2023-02-14 11:20:19 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:19 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'pcounter-users/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuc2FxOFyLvfoK4wxb2gAAAAQ'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=contactform%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59208'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pcounter-users%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=pcounter-users%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373619.5838
+    'REQUEST_TIME' => 1676373619
+]
+2023-02-14 11:20:19 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e739774d.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:19 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'pcounter-users/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tuc2FxOFyLvfoK4wxb2gAAAAQ'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=contactform%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59208'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pcounter-users%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=pcounter-users%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373619.5838
+    'REQUEST_TIME' => 1676373619
+]
+2023-02-14 11:20:20 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/PcounterSaveController.php:57
+2023-02-14 11:20:20 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:20 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'pcounter-save/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tudHKJ9ShToLS3UJGAmAAAAAU'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=pcounter-users%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59214'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pcounter-save%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=pcounter-save%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373620.5203
+    'REQUEST_TIME' => 1676373620
+]
+2023-02-14 11:20:20 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e74882c5.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:20 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'pcounter-save/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tudHKJ9ShToLS3UJGAmAAAAAU'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=pcounter-users%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59214'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=pcounter-save%2Findex'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=pcounter-save%2Findex'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373620.5203
+    'REQUEST_TIME' => 1676373620
+]
+2023-02-14 11:20:21 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+    in /var/www/html/RUW/backend/views/layouts/main.php:54
+    in /var/www/html/RUW/backend/controllers/SiteController.php:73
+2023-02-14 11:20:21 [111.33.78.6][28][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.6
+2023-02-14 11:20:21 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'site/homework'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tudezybK6Yo6GJXaRXgwAAAAY'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=pcounter-save%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fhomework'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=site%2Fhomework'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373621.7214
+    'REQUEST_TIME' => 1676373621
+]
+2023-02-14 11:20:21 [111.33.78.6][28][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'file_put_contents(/var/www/html/RUW/backend/runtime/debug/63eb6e75ba2ed.data): failed to open stream: Permission denied' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:73
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(73): file_put_contents()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#5 [internal function]: yii\log\Logger->flush()
+#6 {main}
+2023-02-14 11:20:21 [111.33.78.6][28][-][info][application] $_GET = [
+    'r' => 'site/homework'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'q69ci8sv818003aalrlvltuq3j'
+    '_csrf-frontend' => '608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"XWnpz-merztqcSmmLS2X6njepPxY7CnP\";}'
+    'advanced-backend' => 'me5k1ntmacunbuf7tutssjihtb'
+    '_csrf-backend' => '26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp\";}'
+    '_identity-backend' => 'fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[28,\"Th5UkbGd7v2tjTjaurixBIerdXzeyCo8\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://8.130.17.136/RUW/backend/web/'
+    '__id' => 28
+    '__authKey' => 'Th5UkbGd7v2tjTjaurixBIerdXzeyCo8'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@tudezybK6Yo6GJXaRXgwAAAAY'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=q69ci8sv818003aalrlvltuq3j; _csrf-frontend=608995cbb23d8a8b6ae0f02df0b549330bf89170e859ea993968e3e86b09d087a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22XWnpz-merztqcSmmLS2X6njepPxY7CnP%22%3B%7D; advanced-backend=me5k1ntmacunbuf7tutssjihtb; _csrf-backend=26d6639934d965a1cec566a64792d0358347fef8b395626ce55c2aa258b31e81a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222p0DCUp11IAn5cYdg-Kv63Ae7ZLDpPxp%22%3B%7D; _identity-backend=fcc6b065a144f0c4e8dd70bef879063aa280d179e9210ee694d4cad5d382e42aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22Th5UkbGd7v2tjTjaurixBIerdXzeyCo8%22%2C2592000%5D%22%3B%7D'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/backend/web/index.php?r=pcounter-save%2Findex'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.6'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/backend/web/index.php'
+    'REMOTE_PORT' => '59220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fhomework'
+    'REQUEST_URI' => '/RUW/backend/web/index.php?r=site%2Fhomework'
+    'SCRIPT_NAME' => '/RUW/backend/web/index.php'
+    'PHP_SELF' => '/RUW/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676373621.7214
+    'REQUEST_TIME' => 1676373621
+]

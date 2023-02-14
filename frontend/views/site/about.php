@@ -10,12 +10,12 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 
 $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 $imgurl = Yii::getAlias("@web") . '/img/';
-
 ?>
 
 <?php echo Html::cssFile('@web/css/default.css'); ?>
@@ -105,7 +105,7 @@ $imgurl = Yii::getAlias("@web") . '/img/';
 			if (n == 0) {
 				n = 6;
 			}
-			pic.src = "../../../frontend/web/img/" + n + ".jpg"
+			pic.src = "<?= $imgurl ?>" + n + ".jpg"
 		}
 		nextBtn.onclick = function() {
 			picLunH();
@@ -117,7 +117,7 @@ $imgurl = Yii::getAlias("@web") . '/img/';
 			if (n == 7) {
 				n = 1;
 			}
-			pic.src = "../../../frontend/web/img/" + n + ".jpg"
+			pic.src = "<?= $imgurl ?>" + n + ".jpg"
 
 		}
 		setInterval(picLunH, 3000);
@@ -127,11 +127,11 @@ $imgurl = Yii::getAlias("@web") . '/img/';
 		<div class="header_left">
 			<div class="menu">
 				<div class="gfx_nav"><span></span></div>
-				<a href="../../../frontend/web/site/about"><span>01</span> 历史背景</a>
-				<a href="../../../frontend/web/site/about1"><span>02</span> 冲突双方</a>
-				<a href="../../../frontend/web/site/about2"><span>03</span> 俄乌会谈</a>
+				<a href="<?= Url::to(['site/about']) ?>"><span>01</span> 历史背景</a>
+				<a href="<?= Url::to(['site/about1']) ?>"><span>02</span> 冲突双方</a>
+				<a href="<?= Url::to(['site/about2']) ?>"><span>03</span> 俄乌会谈</a>
 			</div>
-			<a href="../../../frontend/web/site/about" id="big">R-U War</a>
+			<a href="<?= Url::to(['site/about']) ?>" id="big">R-U War</a>
 		</div>
 
 		<div class="content">
