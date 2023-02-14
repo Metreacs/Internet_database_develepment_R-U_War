@@ -26,7 +26,7 @@ $this->title = '俄乌战争网';
 <div class="site-index">
     <div id="homepage"  style="text-align:center;padding:20px 20px 0px">
     <a href="<?= $abouturl ?>">
-        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=650px />
+        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=760px />
     </a>
     </div>
     <section class="slider"></section>
