@@ -24,7 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php
     /**
      * Team:你说的都队,NKU
-     * coding by huangjingzhi 1810729, 
+     * coding by 谢志颖 2113302， 田佳业 2013599, 
      */
     // echo $this->render('_search', ['model' => $searchModel]); 
     ?>

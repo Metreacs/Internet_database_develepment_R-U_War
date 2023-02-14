@@ -1,7 +1,7 @@
 <?php
 /**
  * Team:你说的都队,NKU
- * coding by 孙家宜 1810756, 0
+ * coding by 谢志颖 2113302, 0
  * 由gii生成
  */
 

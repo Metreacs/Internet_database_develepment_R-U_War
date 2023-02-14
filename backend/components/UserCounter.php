@@ -1,7 +1,7 @@
 <?php
 /**
  * Team:你说的都队,NKU
- * coding by 袁嘉蔚 1810546, 
+ * coding by 吴传杰 2013778, 
  * a component used to count users
  */
 

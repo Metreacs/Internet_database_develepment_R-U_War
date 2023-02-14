@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Team:你说的都队,NKU
-# coding by 徐云凯 1713667
+# coding by 吴传杰 2013778
 # 一键部署脚本
 
 if ! [ -x "$(command -v php)" ]; then
