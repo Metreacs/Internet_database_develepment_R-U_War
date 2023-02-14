@@ -28,7 +28,7 @@ database=""
 theHost=""
 counter=1
 
-project_dir = os.getcwd()
+project_dir = '/var/www/html/Internet_database_develepment_R-U_War'
 db_setting_file = open(project_dir + "/common/config/main-local.php")
 main_local = db_setting_file.readlines()
 db_setting_file.close()

@@ -26,7 +26,7 @@ $this->title = '俄乌战争网';
 <div class="site-index">
     <div id="homepage"  style="text-align:center;padding:20px 20px 0px">
     <a href="<?= $abouturl ?>">
-        <img src="<?= $url ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=760px />
+        <img src="<?= $imgurl ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=760px />
         <img src="<?= $imgurl ?>homepage.jpg" alt="俄乌冲突持续升级" title="俄乌冲突持续升级" width=1300px height=640px />
     </a>
     </div>
@@ -34,7 +34,7 @@ $this->title = '俄乌战争网';
     <div class="container">
         <div class="card-carousel">
             <div class="card" id="1">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>9.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>9.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
                 <div class="sliderThumb" style=" background:url(<?= $imgurl ?>kewadi.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
 
                 </div>
@@ -47,7 +47,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="2">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>8.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>8.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
                 <div class="sliderThumb" style=" background:url(<?= $imgurl ?>feizhou.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
                 </div>
                 <div class="sliderCaption">
@@ -59,7 +59,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="3">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>7.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>7.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
                 <div class="sliderThumb" style=" background:url(<?= $imgurl ?>meiguo.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
 
                 </div>
@@ -72,7 +72,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="4">
-                <div class="sliderThumb" style=" background:url(<?= $url ?>6.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
+                <div class="sliderThumb" style=" background:url(<?= $imgurl ?>6.jpg) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
                 <div class="sliderThumb" style=" background:url(<?= $imgurl ?>shiwei.png) 50% 50% no-repeat; background-size:cover;height:60%;width:100%">
 
                 </div>
@@ -85,7 +85,7 @@ $this->title = '俄乌战争网';
                 </div>
             </div>
             <div class="card" id="5">
-                <div class="sliderThumb" style="background: url(<?= $url ?>5.jpg) 50% 50% no-repeat;background-size:cover;height:60%;width:100%" <div class="sliderCaption">
+                <div class="sliderThumb" style="background: url(<?= $imgurl ?>5.jpg) 50% 50% no-repeat;background-size:cover;height:60%;width:100%" <div class="sliderCaption">
                 <div class="sliderThumb" style="background: url(<?= $imgurl ?>mei.png) 50% 50% no-repeat;background-size:cover;height:60%;width:100%" <div class="sliderCaption">
                 </div>
                 <div class="sliderCaption">

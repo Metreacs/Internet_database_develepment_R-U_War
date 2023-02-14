@@ -1,3 +1,6 @@
+# Team:你说的都队,NKU
+# coding by 田佳业 2013599
+# 一键部署脚本
 function INFO() {
         echo -e "\e[$1;49;1m> $2 \033[39;49;0m"
         # if have $3 parameter, it stands for sheep time
@@ -6,7 +9,7 @@ function INFO() {
         fi
         echo ""
 }
-php init --env=Development --overwrite=All --delete=All
+php /var/www/html/Internet_database_develepment_R-U_War/init --env=Development --overwrite=All --delete=All
 password="Yii#123456"
 # run composer install
 # composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
