@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by LiYanxin 1813265,20200504
+ * Team:你说的都队,NKU
+ * coding by LiYanxin 1813265, 
  * This is the display of video
  */
 

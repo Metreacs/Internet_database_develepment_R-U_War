@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,20200424
+ * Team:你说的都队,NKU
+ * coding by huangjingzhi 1810729, 
  * This is the home page of blog
  */
 use yii\db\Migration;

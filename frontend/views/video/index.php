@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,20200504
+ * Team:你说的都队,NKU
+ * coding by huangjingzhi 1810729, 
  * This is the home page of video
  */
 /** @var $dataProvider ActiveDataProvider */
@@ -21,8 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
                name="keyword"
                value="<?php echo Yii::$app->request->get('keyword') ?>">
         <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
-    </form>
-    <div>分享你的抗疫故事!</div>
+    </form>>
 <?php
 echo \yii\widgets\ListView::widget([
     'dataProvider'=>$dataProvider,

@@ -1,12 +1,12 @@
 <?php
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by 袁嘉蔚 1810546,20200509; 徐云凯 1713667，20200602
+ * Team:你说的都队,NKU
+ * coding by 袁嘉蔚 1810546, ; 徐云凯 1713667， 
  * 袁嘉蔚：实现数据可视化以及数据显示 徐云凯：修改文字框网页样式
  */
 /* @var $this yii\web\View */
 
-$this->title = '俄乌战争资料站后台';
+$this->title = '俄乌战争网后台';
 ?>
 <!DOCTYPE html>
 <html>

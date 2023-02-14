@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Team:布利啾啾迪布利多,NKU
- * coding by huangjingzhi 1810729,20200509
+ * Team:你说的都队,NKU
+ * coding by huangjingzhi 1810729, 
  */
 
 use yii\widgets\LinkPager;
@@ -53,10 +53,9 @@ $this->params['breadcrumbs'][] = $this->title;
                             <img class="img-fluid" src="<?=Url::to('@web/img/banner/b4.jpg')?>" alt="" />
                             <div class="text-wrapper">
                                 <a href="#" class="d-flex">
-                                    <h1>
-                                        驰援 <br />
-                                        
-                                    </h1>
+                                    <h2 style="color: #fff;">
+                                        乌克兰基辅：<br>人们的车子在离开城市的路上排起长队 
+                                    </h2>
                                 </a>
                             </div>
                         </div>
@@ -65,8 +64,8 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="text-wrapper">
                                 <a href="#" class="d-flex">
                                     <h2 style="color: #fff;">
-                                        如何靠对外甩锅并且挑动种族矛盾<br />
-                                        来掩盖自己的无能
+                                        拍摄于白俄罗斯戈梅利州<br />
+                                        两国谈判场地外景
                                     </h2>
                                 </a>
                             </div>
@@ -75,10 +74,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <img class="img-fluid" src="<?=Url::to('@web/img/banner/b6.jpg')?>" alt="" />
                             <div class="text-wrapper">
                                 <a href="#" class="d-flex">
-                                    <h1>
-                                        哀思中，凝聚慨然前行的力量 <br />
+                                    <h2 style="color: #fff;">
+                                        俄乌冲突未见停止迹象 <br />
                                         
-                                    </h1>
+                                    </h2>
                                 </a>
                             </div>
                         </div>
@@ -86,10 +85,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <img class="img-fluid" src="<?=Url::to('@web/img/banner/b7.jpg')?>" alt="" />
                             <div class="text-wrapper">
                                 <a href="#" class="d-flex">
-                                    <h3 style="color:#fff;">
-                                        1月30日，武汉同济医院外，挂在花枝上的吊瓶。 <br />
-                                        因发热门诊空间有限，许多患者在门外的花园里打点滴
-                                    </h3>
+                                    <h2 style="color:#fff;">
+                                    乌军回收炮弹<br />街道一片狼藉 
+                                        
+                                    </h2>
                                 </a>
                             </div>
                         </div>
