@@ -2,7 +2,7 @@
 
 /**
  * Team:你说的都队,NKU
- * coding by 袁嘉蔚 1810546,20200509
+ * coding by 吴传杰，2013778
  * a view of contact us page
  */
 
@@ -49,7 +49,6 @@ $this->title = 'Contact';
         <li class="nav-item"><a class="nav-link" href="../../web/video/index">Video</a></li>
         <li class="nav-item"><a class="nav-link active" href="../../web/site/contact">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/blogs/index">Blogs</a></li>
-        <li class="nav-item"><a class="nav-link" href="../../web/site/signup">Signup</a></li>
         <li class="nav-item"><a class="nav-link" href="../../web/site/login">Login</a></li>
       </ul>
     </div>
