@@ -160,7 +160,7 @@ $this->title = 'Contact';
             <p class="lead">博客数据获取Blogs板块、注册登录页面以及Blogs板块前后台</p>
             <p>体育馆或者图书馆总得有一个是我家</p>
             <div class="social mt-4">
-              <a href="https://github.com/MilkyBoat" target="_blank"><span class="icon-github"></span></a>
+              <a href="https://github.com/0Jasmine" target="_blank"><span class="icon-github"></span></a>
               <a href="mailto:2113302@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="http://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>
@@ -174,7 +174,7 @@ $this->title = 'Contact';
             <p>互联网数据库破防</br>
             </p>
             <div class="social mt-4">
-              <a href="https://github.com/tenkinoko" target="_blank"><span class="icon-github"></span></a>
+              <a href="https://github.com/Lunaticsky-tql" target="_blank"><span class="icon-github"></span></a>
               <a href="mailto:2013599@mail.nankai.edu.cn" target="_blank"><span class="icon-envelope-o"></span></a>
               <a href="https://cc.nankai.edu.cn/" target="_blank"><span class="icon-institution"></span></a>
             </div>
