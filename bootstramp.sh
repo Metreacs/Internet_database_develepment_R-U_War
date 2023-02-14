@@ -9,8 +9,8 @@ function INFO() {
 php init --env=Development --overwrite=All --delete=All
 password="Yii#123456"
 # run composer install
-composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
-composer install --ignore-platform-req=php
+# composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+# composer install --ignore-platform-req=php
 (
 cat << EOF
 <?php
