@@ -82,6 +82,7 @@ if __name__=="__main__":
     for i in range(50):
         if i:
             crawlBlog(url+"&pn="+str(i+1))
+            print("page "+str(i+1)+" done.")
         else: crawlBlog(url)
     cur.connection.commit()
         
