@@ -30,7 +30,7 @@ return [
     ],
 ];
 EOF
-) > ./common/config/main-local.php
+) > /var/www/html/Internet_database_develepment_R-U_War/common/config/main-local.php
 
 # create database yii22022
 mysql -uroot -p${password} --connect-expired-password << EOF
@@ -40,4 +40,4 @@ EOF
 mysql -uroot -p${password} --connect-expired-password yii22022 < ./data/yii22022.sql
 pip3 install bs4
 pip3 install pymysql
-python3 ./spider/spiderForBlog.py
+python3 /var/www/html/Internet_database_develepment_R-U_War/spider/spiderForBlog.py

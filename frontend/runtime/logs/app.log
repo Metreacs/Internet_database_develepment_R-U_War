@@ -1,0 +1,409 @@
+2023-02-14 13:56:23 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: url in /var/www/html/RUW/frontend/views/site/index.php:29
+Stack trace:
+#0 /var/www/html/RUW/frontend/views/site/index.php(29): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(347): require('/var/www/html/R...')
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/RUW/frontend/controllers/SiteController.php(88): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 /var/www/html/RUW/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/RUW/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/RUW/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/RUW/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/RUW/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2023-02-14 13:56:23 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.5
+2023-02-14 13:56:23 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'eo'
+    'advanced-frontend' => 'otoobc34copnd33ai31q1i9nl9'
+    '_csrf-frontend' => '1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"43t6gd3Fn3ePm3KVMbztNj_664g751MO\";}'
+    'SL_GWPT_Show_Hide_tmp' => '1'
+    'SL_wptGlobTipTmp' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@uTB6GOGs6KT6GZYg-FZQAAAAg'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; advanced-frontend=otoobc34copnd33ai31q1i9nl9; _csrf-frontend=1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2243t6gd3Fn3ePm3KVMbztNj_664g751MO%22%3B%7D; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.5'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'REMOTE_PORT' => '27169'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/frontend/web/'
+    'SCRIPT_NAME' => '/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/RUW/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676382983.6787
+    'REQUEST_TIME' => 1676382983
+]
+2023-02-14 13:56:23 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Unable to open debug data index file: /var/www/html/RUW/frontend/runtime/debug/index.data' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:140
+
+Stack trace:
+#0 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(79): yii\debug\LogTarget->updateIndexFile()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/base/ErrorHandler.php(154): yii\log\Logger->flush()
+#5 [internal function]: yii\base\ErrorHandler->handleException()
+#6 {main}
+2023-02-14 13:56:23 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'eo'
+    'advanced-frontend' => 'otoobc34copnd33ai31q1i9nl9'
+    '_csrf-frontend' => '1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"43t6gd3Fn3ePm3KVMbztNj_664g751MO\";}'
+    'SL_GWPT_Show_Hide_tmp' => '1'
+    'SL_wptGlobTipTmp' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@uTB6GOGs6KT6GZYg-FZQAAAAg'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; advanced-frontend=otoobc34copnd33ai31q1i9nl9; _csrf-frontend=1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2243t6gd3Fn3ePm3KVMbztNj_664g751MO%22%3B%7D; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://8.130.17.136/RUW/'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.5'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'REMOTE_PORT' => '27169'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/frontend/web/'
+    'SCRIPT_NAME' => '/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/RUW/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676382983.6787
+    'REQUEST_TIME' => 1676382983
+]
+2023-02-14 13:57:17 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: url in /var/www/html/RUW/frontend/views/site/index.php:29
+Stack trace:
+#0 /var/www/html/RUW/frontend/views/site/index.php(29): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(347): require('/var/www/html/R...')
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/RUW/frontend/controllers/SiteController.php(88): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 /var/www/html/RUW/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/RUW/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/RUW/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/RUW/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/RUW/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2023-02-14 13:57:17 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.5
+2023-02-14 13:57:17 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'eo'
+    'advanced-frontend' => 'otoobc34copnd33ai31q1i9nl9'
+    '_csrf-frontend' => '1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"43t6gd3Fn3ePm3KVMbztNj_664g751MO\";}'
+    'SL_GWPT_Show_Hide_tmp' => '1'
+    'SL_wptGlobTipTmp' => '1'
+    'advanced-backend' => 'tcsji1skgsgqmmh2t2duc2shg6'
+    '_csrf-backend' => 'b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"apUin1RIKdM1-tgZETNSsrxYn-X1uIGt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@uTPfuXDlgmCKM9LYkVqQAAAA8'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; advanced-frontend=otoobc34copnd33ai31q1i9nl9; _csrf-frontend=1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2243t6gd3Fn3ePm3KVMbztNj_664g751MO%22%3B%7D; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; advanced-backend=tcsji1skgsgqmmh2t2duc2shg6; _csrf-backend=b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22apUin1RIKdM1-tgZETNSsrxYn-X1uIGt%22%3B%7D'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.5'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'REMOTE_PORT' => '27227'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/frontend/web/'
+    'SCRIPT_NAME' => '/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/RUW/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676383037.4924
+    'REQUEST_TIME' => 1676383037
+]
+2023-02-14 13:57:17 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Unable to open debug data index file: /var/www/html/RUW/frontend/runtime/debug/index.data' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:140
+
+Stack trace:
+#0 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(79): yii\debug\LogTarget->updateIndexFile()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/base/ErrorHandler.php(154): yii\log\Logger->flush()
+#5 [internal function]: yii\base\ErrorHandler->handleException()
+#6 {main}
+2023-02-14 13:57:17 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'eo'
+    'advanced-frontend' => 'otoobc34copnd33ai31q1i9nl9'
+    '_csrf-frontend' => '1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"43t6gd3Fn3ePm3KVMbztNj_664g751MO\";}'
+    'SL_GWPT_Show_Hide_tmp' => '1'
+    'SL_wptGlobTipTmp' => '1'
+    'advanced-backend' => 'tcsji1skgsgqmmh2t2duc2shg6'
+    '_csrf-backend' => 'b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"apUin1RIKdM1-tgZETNSsrxYn-X1uIGt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@uTPfuXDlgmCKM9LYkVqQAAAA8'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; advanced-frontend=otoobc34copnd33ai31q1i9nl9; _csrf-frontend=1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2243t6gd3Fn3ePm3KVMbztNj_664g751MO%22%3B%7D; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; advanced-backend=tcsji1skgsgqmmh2t2duc2shg6; _csrf-backend=b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22apUin1RIKdM1-tgZETNSsrxYn-X1uIGt%22%3B%7D'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.5'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'REMOTE_PORT' => '27227'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/frontend/web/'
+    'SCRIPT_NAME' => '/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/RUW/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676383037.4924
+    'REQUEST_TIME' => 1676383037
+]
+2023-02-14 13:57:44 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: url in /var/www/html/RUW/frontend/views/site/index.php:29
+Stack trace:
+#0 /var/www/html/RUW/frontend/views/site/index.php(29): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(347): require('/var/www/html/R...')
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/RUW/frontend/controllers/SiteController.php(88): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 /var/www/html/RUW/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/RUW/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/RUW/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/RUW/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/RUW/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/RUW/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2023-02-14 13:57:44 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 111.33.78.5
+2023-02-14 13:57:44 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'eo'
+    'advanced-frontend' => 'otoobc34copnd33ai31q1i9nl9'
+    '_csrf-frontend' => '1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"43t6gd3Fn3ePm3KVMbztNj_664g751MO\";}'
+    'SL_GWPT_Show_Hide_tmp' => '1'
+    'SL_wptGlobTipTmp' => '1'
+    'advanced-backend' => 'tcsji1skgsgqmmh2t2duc2shg6'
+    '_csrf-backend' => 'b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"apUin1RIKdM1-tgZETNSsrxYn-X1uIGt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@uTWHKJ9ShToLS3UJGApAAAAAU'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; advanced-frontend=otoobc34copnd33ai31q1i9nl9; _csrf-frontend=1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2243t6gd3Fn3ePm3KVMbztNj_664g751MO%22%3B%7D; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; advanced-backend=tcsji1skgsgqmmh2t2duc2shg6; _csrf-backend=b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22apUin1RIKdM1-tgZETNSsrxYn-X1uIGt%22%3B%7D'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.5'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'REMOTE_PORT' => '27251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/frontend/web/'
+    'SCRIPT_NAME' => '/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/RUW/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676383064.2061
+    'REQUEST_TIME' => 1676383064
+]
+2023-02-14 13:57:44 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Unable to open debug data index file: /var/www/html/RUW/frontend/runtime/debug/index.data' 
+
+in /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php:140
+
+Stack trace:
+#0 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(79): yii\debug\LogTarget->updateIndexFile()
+#1 /var/www/html/RUW/vendor/yiisoft/yii2-debug/src/LogTarget.php(182): yii\debug\LogTarget->export()
+#2 /var/www/html/RUW/vendor/yiisoft/yii2/log/Dispatcher.php(194): yii\debug\LogTarget->collect()
+#3 /var/www/html/RUW/vendor/yiisoft/yii2/log/Logger.php(226): yii\log\Dispatcher->dispatch()
+#4 /var/www/html/RUW/vendor/yiisoft/yii2/base/ErrorHandler.php(154): yii\log\Logger->flush()
+#5 [internal function]: yii\base\ErrorHandler->handleException()
+#6 {main}
+2023-02-14 13:57:44 [111.33.78.5][-][otoobc34copnd33ai31q1i9nl9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'SL_G_WPT_TO' => 'eo'
+    'advanced-frontend' => 'otoobc34copnd33ai31q1i9nl9'
+    '_csrf-frontend' => '1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"43t6gd3Fn3ePm3KVMbztNj_664g751MO\";}'
+    'SL_GWPT_Show_Hide_tmp' => '1'
+    'SL_wptGlobTipTmp' => '1'
+    'advanced-backend' => 'tcsji1skgsgqmmh2t2duc2shg6'
+    '_csrf-backend' => 'b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"apUin1RIKdM1-tgZETNSsrxYn-X1uIGt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'Y@uTWHKJ9ShToLS3UJGApAAAAAU'
+    'HTTP_HOST' => '8.130.17.136'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'SL_G_WPT_TO=eo; advanced-frontend=otoobc34copnd33ai31q1i9nl9; _csrf-frontend=1018b708afc79211a051ad091e2423cfe1af640f1c6725ff61ded033bf63be52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2243t6gd3Fn3ePm3KVMbztNj_664g751MO%22%3B%7D; SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; advanced-backend=tcsji1skgsgqmmh2t2duc2shg6; _csrf-backend=b4820a9047e26dbd185bee3e6f099fd685c7ccc705a88704706f123bbc603004a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22apUin1RIKdM1-tgZETNSsrxYn-X1uIGt%22%3B%7D'
+    'HTTP_PROXY_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3'
+    'SERVER_NAME' => '8.130.17.136'
+    'SERVER_ADDR' => '172.31.226.22'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '111.33.78.5'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/RUW/frontend/web/index.php'
+    'REMOTE_PORT' => '27251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/RUW/frontend/web/'
+    'SCRIPT_NAME' => '/RUW/frontend/web/index.php'
+    'PHP_SELF' => '/RUW/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1676383064.2061
+    'REQUEST_TIME' => 1676383064
+]
