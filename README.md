@@ -20,4 +20,6 @@ By [吴传杰](https://github.com/Metreacs), [谢志颖](https://github.com/0Jas
 ---
 ![homepage](README.asset/frontend_homepage.png)
 ![homepage](README.asset/backend_homepage.png)
-
+[article模版](https://colorlib.com/wp/template/revive/)
+[contact模版]()
+[blog模版](https://www.free-css.com/free-css-templates/page250/24-news)
